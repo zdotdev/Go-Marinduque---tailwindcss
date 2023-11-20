@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth font-poppins text-neutral-900 bg-neutral-200 transition-">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Go Marinduque</title>
+</head>
+<body id="body">
+    <header>
+        <nav class="fixed w-screen z-40">
+            <ul class="flex justify-between px-6 bg-neutral-800 text-slate-50 m-0 h-16">
+                <li class="flex items-center justify-center"><a href="#" class="material-symbols-outlined" id="menu">Menu</a></li>
+                <li class="flex items-center justify-center"><img src="assets/images/logo3.2.png" alt="logo.png" class="h-6"></li>
+                <li class="flex items-center justify-center"><a href="#" class="material-symbols-outlined">Search</a></li>
+            </ul>
+        </nav>
+        <section class="-start-n120 fixed z-50 w-screen h-screen text-2xl bg-gradient-to-b from-primary-500-0 to-secondary-300-0 duration-300 p-8" id="navbar-display">
+            <a href="#" class="material-symbols-outlined" id="hide">Close</a>
+            <div class="pl-8 pt-8 flex gap-56">
+            <div class="flex flex-col gap-2">
+                <ul>
+                    <li class="flex text-center justify-between"><a href="#">Things to Do</a><a href="#" class="material-symbols-outlined" id="plus">Add</a></li>
+                    <li class="flex text-center justify-between"><a href="#">Eat & Drink</a><a href="#" class="material-symbols-outlined" id="plus">Add</a></li>
+                    <li><a href="#">Find Events</a></li>
+                    <li><a href="#">Itineraries</a></li>
+                    <li><a href="#">Where to Stay</a></li>
+                    <li class="flex text-center justify-between"><a href="#">Celebrate MDQ Heritage</a><a href="#" class="material-symbols-outlined" id="plus"><Address></Address></a></li>
+                    <li ><a href="#">Tourist Information</a></li>
+                    <li class="flex text-center justify-between"><a href="#">Business</a><a href="#" class="material-symbols-outlined" id="plus">Add</a></li>
+                </ul>
+                <a href="#">Log in</a>
+                <select name="none" class="text-neutral-900 bg-transparent w-96 h-8 pl-2 outline-double outline-1 outline-neutral-900">
+                    <option value="english" selected>English</option>
+                    <option value="filipino">Filipino</option>
+                    <option value="spanish">Spanish</option>
+                    <option value="java">Java Man</option>
+                </select>
+            </div>
+            <div class="flex flex-col gap-8 mb-4">
+                <p>Today's must read</p>
+                <img src="assets/images/reyes0.jpg" alt="Reyes Image" class="h-96">
+                <p>The Best Outdoor Shabu-shabuhan in Santa Cruz, Marinduque</p>
+            </div>
+        </div>
+            <div>
+                <ul class="flex pl-8 font-700 gap-8 mb-8">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                    <li><a href="#">Tiktok</a></li>
+                </ul>
+            </div>
+        </section>
+    </header>
+    <main class="pt-14">
+        <section class="flex flex-col">
+            <div class="flex flex-row h-40">
+                <div class="w-4/6 px-16 flex flex-col justify-center h-auto bg-gradient-to-b from-primary-500-0 to-secondary-300-0">
+                    <div class="flex mb-8 font-600">
+                        <a href="#" class="flex items-center  bg-neutral-800 text-neutral-200 px-4 py-1 text-0.8 hover:underline">Things to Do</a>
+                        <a href="#" class=" flex items-center px-4 py-1 text-0.8 hover:underline">Arts & Culture</a>
+                    </div>
+                    <div>
+                        <h1 class="font-700 text-2.8 leading-tight mb-8 hover:underline"><a href="#">THE MARINDUQUE RANDOM STUFFS: 10 THINGS YOU CAN'T MISS</a></h1>
+                        <h2><a href="#" class="hover:underline">Plan your visit now</a></h2>
+                        <h3>by <a class="font-700 hover:underline cursor-pointer">Zedrick Ragas</a><br>Oct 25, 2023</h3>
+                    </div>
+                </div>
+                <figure class="h-auto">
+                    <img src="assets/images/reyes0.jpg" alt="Marinduque img" class="w-screen h-40">
+                </figure>
+            </div>
+            <div>
+                <nav class="bg-neutral-500">
+                    <ul class="flex justify-center h-auto flex-wrap font-500">
+                        <li class="flex"><a href="#" class="flex justify-center items-center h-16 hover:bg-secondary-900-0 hover:underline duration-300 px-12">Things to Do</a></li>
+                        <li class="flex"><a href="#" class="flex justify-center items-center h-16 hover:bg-secondary-900-0 hover:underline duration-300 px-12">Attractions and Tours</a></li>
+                        <li class="flex"><a href="#" class="flex justify-center items-center h-16 hover:bg-secondary-900-0 hover:underline duration-300 px-12">Arts and Culture</a></li>
+                        <li class="flex"><a href="#" class="flex justify-center items-center h-16 hover:bg-secondary-900-0 hover:underline duration-300 px-12">Outdoors and Wellness</a></li>
+                        <li class="flex"><a href="#" class="flex justify-center items-center h-16 hover:bg-secondary-900-0 hover:underline duration-300 px-12">Shopping</a></li>
+                        <li class="flex"><a href="#" class="flex justify-center items-center h-16 hover:bg-secondary-900-0 hover:underline duration-300 px-12">Business Spotlight</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="flex w-auto justify-center py-24 gap-4 flex-wrap">
+                <select name="things-to-do" class="px-32 outline-none">
+                    <option value="Categories">Categories(all)</option>
+                    <option value="things-to-do" selected>Things to Do</option>
+                    <option value="----">----</option>
+                    <option value="----">----</option>
+                    <option value="----">----</option>
+                    <option value="----">----</option>
+                    <option value="----">----</option>
+                    <option value="----">----</option>
+                    <option value="----">----</option>
+                    <option value="----">----</option>
+                    <option value="----">----</option>
+                    <option value="----">----</option>
+                </select>
+                <a href="#" class="bg-secondary-900-0 px-4 py-2 text-0.8 font-500">GO</a>
+            </div>
+        </section>
+        <section class="flex justify-center py-16 bg-neutral-50">
+            <p class="text-justify w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusamus alias consectetur dolor quis nemo cum ex, nisi explicabo iusto adipisci perspiciatis quidem, possimus, optio inventore blanditiis ad cumque quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quidem consequuntur ex eos fugiat dolorem minima alias nihil, tempore soluta. Dolorem sequi ullam libero repellat delectus quo, consequuntur error illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quo, reiciendis est incidunt consequatur voluptas fugit enim laboriosam consequuntur porro facere cumque soluta fuga tempora earum harum! Nihil, quaerat possimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, saepe tenetur repellendus alias inventore atque nostrum expedita culpa rem dolor, officia aspernatur voluptatum explicabo ratione eum dolorum optio reprehenderit repellat! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </section>
+        <section>
+            <div class="flex">
+                <figure class="flex h-40 w-56">
+                    <img src="assets/images/reyes0.jpg" alt="Reyes Image" class="flex relative -z-50 h-40 w-100">
+                    <div href="#" class="flex bg-gradient-to-tr from-primary-900-0 to-transparent to-60% h-40 w-56 opacity-50 absolute -z-10"></div>
+                    <div class="flex flex-col p-10 justify-end h-40 text-neutral-100 absolute -z-0 ">
+                        <a href="#" class="text-1.4 font-300 hover:underline tracking-wider">OUTDOORS AND WELLNESS</a>
+                        <a href="#" class="text-2.8 font-700 hover:underline">MDQ's BEST HIKING TRAILS</a>
+                        <a href="#" class="text-1 font-300 tracking-wider">by <span class="font-700 hover:underline">Discover Marinduque</span></a>
+                    </div>
+                </figure>
+                <figure class="flex h-40 w-44">
+                    <img src="assets/images/reyes0.jpg" alt="Reyes Image" class="flex relative -z-50 h-40 w-100">
+                    <div href="#" class="flex bg-gradient-to-tr from-primary-900-0 to-transparent to-60% h-40 w-44 opacity-50 absolute -z-10"></div>
+                    <div class="flex flex-col p-10 justify-end h-40 text-neutral-100 absolute -z-0 ">
+                        <a href="#" class="text-1.4 font-300 hover:underline tracking-wider">OUTDOORS AND WELLNESS</a>
+                        <a href="#" class="text-2.8 font-700 hover:underline">MDQ's BEST HIKING TRAILS</a>
+                        <a href="#" class="text-1 font-300 tracking-wider">by <span class="font-700 hover:underline">Discover Marinduque</span></a>
+                    </div>
+                </figure>
+            </div>
+            <div class="flex">
+                <figure class="flex h-40 w-44">
+                    <img src="assets/images/reyes0.jpg" alt="Reyes Image" class="flex relative -z-50 h-40 w-100">
+                    <div href="#" class="flex bg-gradient-to-tr from-primary-900-0 to-transparent to-60% h-40 w-44 opacity-50 absolute -z-10"></div>
+                    <div class="flex flex-col p-10 justify-end h-40 text-neutral-100 absolute -z-0 ">
+                        <a href="#" class="text-1.4 font-300 hover:underline tracking-wider">OUTDOORS AND WELLNESS</a>
+                        <a href="#" class="text-2.8 font-700 hover:underline">MDQ's BEST HIKING TRAILS</a>
+                        <a href="#" class="text-1 font-300 tracking-wider">by <span class="font-700 hover:underline">Discover Marinduque</span></a>
+                    </div>
+                </figure>
+                <figure class="flex h-40 w-56">
+                    <img src="assets/images/reyes0.jpg" alt="Reyes Image" class="flex relative -z-50 h-40 w-100">
+                    <div href="#" class="flex bg-gradient-to-tr from-primary-900-0 to-transparent to-60% h-40 w-56 opacity-50 absolute -z-10"></div>
+                    <div class="flex flex-col p-10 justify-end h-40 text-neutral-100 absolute -z-0 ">
+                        <a href="#" class="text-1.4 font-300 hover:underline tracking-wider">OUTDOORS AND WELLNESS</a>
+                        <a href="#" class="text-2.8 font-700 hover:underline">MDQ's BEST HIKING TRAILS</a>
+                        <a href="#" class="text-1 font-300 tracking-wider">by <span class="font-700 hover:underline">Discover Marinduque</span></a>
+                    </div>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer class="flex flex-col text-center">
+        <div class="bg-primary-600-0 text-neutral-100 py-8">
+            <h2 class="font-700 text-2.8 mb-8 leading-none">DISCOVER MDQ NEWSLETTER</h2>
+            <form action="#" class="flex justify-center gap-2 mb-8">
+                <input type="email" placeholder="Enter your email" class="w-96 px-4 py-2 rounded-lg text-neutral-900 outline-none">
+                <button class="bg-secondary-500-0 hover:bg-secondary-900-0 duration-300 px-2 rounded-lg text-neutral-100">Get Updates</button>
+            </form>
+            <div class="flex justify-center gap-2">
+                <input type="checkbox" value="accept" >
+                <p>I consent to receive the Discover LA newsletter. You can learn more by reading our privacy policy, and you can opt out at any time.</p>
+            </div>
+        </div>
+        <div class="pt-8 pb-4 bg-neutral-600 text-neutral-300">
+            <div>
+                <ul class="flex justify-center gap-8 mb-8 underline font-500">
+                    <li>Things to Do</li>
+                    <li>Eat & Drink</li>
+                    <li>Find Events</li>
+                    <li>Where to Stay</li>
+                    <li>Tourist Info</li>
+                    <li>Business</li>
+                </ul>
+            </div>
+            <div class="flex flex-col">
+                <h2 class="font-700 text-2.8 mb-4">PARTNERS</h2>
+                <ul class="flex flex-row justify-center gap-8 font-700 text-2.8 mb-8">
+                    <li><a href="#"><img src="assets/images/warnerbros-new_0.png" alt="Warner Brothers"></a></li>
+                    <li><a href="#"><img src="assets/images/partner_logo_laxlogo_1.png" alt="LAX"></a></li>
+                    <li><a href="#"><img src="assets/images/partner_logo_hollywood_studios.png" alt="Universal Studio"></a></li>
+                    <li><a href="#"><img src="assets/images/partner_logo_BrandUSA.png" alt="USA"></a></li>
+                    <li><a href="#"><img src="assets/images/visitcalifornia.png" alt="Visit California"></a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="flex justify-center font-700 gap-8 mb-8">
+                    <li><a href="#" class="">Facebook</a></li>
+                    <li><a href="#" class="">Twitter</a></li>
+                    <li><a href="#" class="">Instagram</a></li>
+                    <li><a href="#" class="">Pinterest</a></li>
+                    <li><a href="#" class="">Tiktok</a></li>
+                </ul>
+            </div>
+            <div class="flex justify-center gap-8 mb-8">
+                <a href="#"><img src="assets/images/app-button_0.png" alt="AppStore" class="h-10"></a>
+                <a href="#"><img src="assets/images/googleplay-272x89_0.png" alt="GooglePlay" class="h-10"></a>
+            </div>
+            <div>
+                <ul class="flex justify-center font-700 underline mb-8">
+                    <li class="flex items-center border-r-2 h-3 px-4 border-r-neutral-300"><a href="#">PRIVACY POLICY</a></li>
+                    <li class="flex items-center border-r-2 h-3 px-4 border-r-neutral-300"><a href="#">PRIVACY SETTINGS</a></li>
+                    <li class="flex items-center border-r-2 h-3 px-4 border-r-neutral-300"><a href="#">ADVERTISE</a></li>
+                    <li class="flex items-center h-3 px-4"><a href="#">ACCESSIBILITY</a></li>
+                </ul>
+            </div>
+            <p class="font-200 text-1">The official guide to Marinduque. Find great deals, things to do, Philippine travel guides and more.</p>
+        </div>
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+</html>
