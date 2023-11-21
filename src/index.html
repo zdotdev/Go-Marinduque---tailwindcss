@@ -10,7 +10,7 @@
 <body id="body">
     <header>
         <nav class="fixed w-screen z-40">
-            <ul class="flex justify-between px-6 bg-neutral-800 text-slate-50 m-0 h-16">
+            <ul class="h-12 flex justify-between px-6 bg-neutral-800 text-slate-50 m-0 lg:h-16">
                 <li class="flex items-center justify-center"><a href="#" class="material-symbols-outlined" id="menu">Menu</a></li>
                 <li class="flex items-center justify-center"><img src="assets/images/logo3.2.png" alt="logo.png" class="h-6"></li>
                 <li class="flex items-center justify-center"><a href="#" class="material-symbols-outlined">Search</a></li>
@@ -55,12 +55,12 @@
             </div>
         </section>
     </header>
-    <main class="pt-14">
+    <main class="pt-12 lg:pt-14">
         <section class="flex flex-col">
             <div class="flex flex-row h-40">
-                <div class="w-4/6 px-16 flex flex-col justify-center h-auto bg-gradient-to-b from-primary-500-0 to-secondary-300-0">
-                    <div class="flex mb-8 font-600">
-                        <a href="#" class="flex items-center  bg-neutral-800 text-neutral-200 px-4 py-1 text-0.8 hover:underline">Things to Do</a>
+                <div class="text-center lg:text-left lg:w-4/6 px-16 flex flex-col-reverse lg:flex-col justify-center h-auto bg-gradient-to-b from-primary-500-0 to-secondary-300-0">
+                    <div class="flex justify-center lg:justify-normal mb-8 font-600">
+                        <a href="#" class="flex items-center  bg-neutral-800 text-neutral-200 px-4 py-1 text-0.8 hover:underline hover:text-neutral-900 hover:bg-secondary-900-0 duration-300">Things to Do</a>
                         <a href="#" class=" flex items-center px-4 py-1 text-0.8 hover:underline">Arts & Culture</a>
                     </div>
                     <div>
@@ -69,13 +69,13 @@
                         <h3>by <a class="font-700 hover:underline cursor-pointer">Zedrick Ragas</a><br>Oct 25, 2023</h3>
                     </div>
                 </div>
-                <figure class="h-auto">
+                <figure class="hidden lg:flex lg:h-auto">
                     <img src="assets/images/reyes0.jpg" alt="Marinduque img" class="w-screen h-40">
                 </figure>
             </div>
             <div>
                 <nav class="bg-neutral-500">
-                    <ul class="flex justify-center h-auto flex-wrap font-500">
+                    <ul class="flex flex-col items-center lg:flex-row justify-center h-auto flex-wrap font-500">
                         <li class="flex"><a href="#" class="flex justify-center items-center h-16 hover:bg-secondary-900-0 hover:underline duration-300 px-12">Things to Do</a></li>
                         <li class="flex"><a href="#" class="flex justify-center items-center h-16 hover:bg-secondary-900-0 hover:underline duration-300 px-12">Attractions and Tours</a></li>
                         <li class="flex"><a href="#" class="flex justify-center items-center h-16 hover:bg-secondary-900-0 hover:underline duration-300 px-12">Arts and Culture</a></li>
@@ -100,47 +100,47 @@
                     <option value="----">----</option>
                     <option value="----">----</option>
                 </select>
-                <a href="#" class="bg-secondary-900-0 px-4 py-2 text-0.8 font-500">GO</a>
+                <a href="#" class="bg-secondary-500-0 hover:bg-secondary-900-0 duration-300 px-4 py-2 text-0.8 font-500">GO</a>
             </div>
         </section>
-        <section class="flex justify-center py-16 bg-neutral-50">
-            <p class="text-justify w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusamus alias consectetur dolor quis nemo cum ex, nisi explicabo iusto adipisci perspiciatis quidem, possimus, optio inventore blanditiis ad cumque quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quidem consequuntur ex eos fugiat dolorem minima alias nihil, tempore soluta. Dolorem sequi ullam libero repellat delectus quo, consequuntur error illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quo, reiciendis est incidunt consequatur voluptas fugit enim laboriosam consequuntur porro facere cumque soluta fuga tempora earum harum! Nihil, quaerat possimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, saepe tenetur repellendus alias inventore atque nostrum expedita culpa rem dolor, officia aspernatur voluptatum explicabo ratione eum dolorum optio reprehenderit repellat! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <section class="flex justify-center py-8 px-8 lg:px-0 lg:py-16 bg-neutral-50">
+            <p class="text-justify lg:w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusamus alias consectetur dolor quis nemo cum ex, nisi explicabo iusto adipisci perspiciatis quidem, possimus, optio inventore blanditiis ad cumque quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quidem consequuntur ex eos fugiat dolorem minima alias nihil, tempore soluta. Dolorem sequi ullam libero repellat delectus quo, consequuntur error illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quo, reiciendis est incidunt consequatur voluptas fugit enim laboriosam consequuntur porro facere cumque soluta fuga tempora earum harum! Nihil, quaerat possimus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, saepe tenetur repellendus alias inventore atque nostrum expedita culpa rem dolor, officia aspernatur voluptatum explicabo ratione eum dolorum optio reprehenderit repellat! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </section>
         <section>
-            <div class="flex">
-                <figure class="flex h-40 w-56">
+            <div class="flex flex-col lg:flex-row">
+                <figure class="flex w-screen h-40 lg:w-56 px-8 lg:p-0">
                     <img src="assets/images/reyes0.jpg" alt="Reyes Image" class="flex relative -z-50 h-40 w-100">
-                    <div href="#" class="flex bg-gradient-to-tr from-primary-900-0 to-transparent to-60% h-40 w-56 opacity-50 absolute -z-10"></div>
-                    <div class="flex flex-col p-10 justify-end h-40 text-neutral-100 absolute -z-0 ">
+                    <div href="#" class="flex bg-gradient-to-tr from-primary-900-0 to-transparent to-60% h-40 w-96 lg:w-56 opacity-50 absolute -z-10"></div>
+                    <div class="flex flex-col text-center lg:text-left p-10 justify-center lg:justify-end h-40 text-neutral-100 absolute -z-0 ">
                         <a href="#" class="text-1.4 font-300 hover:underline tracking-wider">OUTDOORS AND WELLNESS</a>
                         <a href="#" class="text-2.8 font-700 hover:underline">MDQ's BEST HIKING TRAILS</a>
                         <a href="#" class="text-1 font-300 tracking-wider">by <span class="font-700 hover:underline">Discover Marinduque</span></a>
                     </div>
                 </figure>
-                <figure class="flex h-40 w-44">
+                <figure class="flex h-40 w-100 lg:w-44 px-8 lg:p-0 lg:m-0 mt-8">
                     <img src="assets/images/reyes0.jpg" alt="Reyes Image" class="flex relative -z-50 h-40 w-100">
-                    <div href="#" class="flex bg-gradient-to-tr from-primary-900-0 to-transparent to-60% h-40 w-44 opacity-50 absolute -z-10"></div>
-                    <div class="flex flex-col p-10 justify-end h-40 text-neutral-100 absolute -z-0 ">
+                    <div href="#" class="flex bg-gradient-to-tr from-primary-900-0 to-transparent to-60% h-40 w-96 lg:w-44 opacity-50 absolute -z-10"></div>
+                    <div class="flex flex-col p-10 text-center lg:text-left justify-center lg:justify-end h-40 text-neutral-100 absolute -z-0 ">
                         <a href="#" class="text-1.4 font-300 hover:underline tracking-wider">OUTDOORS AND WELLNESS</a>
                         <a href="#" class="text-2.8 font-700 hover:underline">MDQ's BEST HIKING TRAILS</a>
                         <a href="#" class="text-1 font-300 tracking-wider">by <span class="font-700 hover:underline">Discover Marinduque</span></a>
                     </div>
                 </figure>
             </div>
-            <div class="flex">
-                <figure class="flex h-40 w-44">
+            <div class="flex flex-col lg:flex-row">
+                <figure class="flex h-40 w-100 lg:w-44 px-8 lg:p-0 lg:m-0 mt-8">
                     <img src="assets/images/reyes0.jpg" alt="Reyes Image" class="flex relative -z-50 h-40 w-100">
-                    <div href="#" class="flex bg-gradient-to-tr from-primary-900-0 to-transparent to-60% h-40 w-44 opacity-50 absolute -z-10"></div>
-                    <div class="flex flex-col p-10 justify-end h-40 text-neutral-100 absolute -z-0 ">
+                    <div href="#" class="flex bg-gradient-to-tr from-primary-900-0 to-transparent to-60% h-40 w-96 lg:w-44 opacity-50 absolute -z-10"></div>
+                    <div class="flex flex-col p-10 text-center lg:text-left justify-center lg:justify-end h-40 text-neutral-100 absolute -z-0 ">
                         <a href="#" class="text-1.4 font-300 hover:underline tracking-wider">OUTDOORS AND WELLNESS</a>
                         <a href="#" class="text-2.8 font-700 hover:underline">MDQ's BEST HIKING TRAILS</a>
                         <a href="#" class="text-1 font-300 tracking-wider">by <span class="font-700 hover:underline">Discover Marinduque</span></a>
                     </div>
                 </figure>
-                <figure class="flex h-40 w-56">
+                <figure class="flex h-40 w-100 lg:w-56 px-8 lg:p-0 lg:m-0 my-8">
                     <img src="assets/images/reyes0.jpg" alt="Reyes Image" class="flex relative -z-50 h-40 w-100">
-                    <div href="#" class="flex bg-gradient-to-tr from-primary-900-0 to-transparent to-60% h-40 w-56 opacity-50 absolute -z-10"></div>
-                    <div class="flex flex-col p-10 justify-end h-40 text-neutral-100 absolute -z-0 ">
+                    <div href="#" class="flex bg-gradient-to-tr from-primary-900-0 to-transparent to-60% h-40 w-96 lg:w-56 opacity-50 absolute -z-10"></div>
+                    <div class="flex flex-col p-10 text-center lg:text-left justify-center lg:justify-end h-40 text-neutral-100 absolute -z-0 ">
                         <a href="#" class="text-1.4 font-300 hover:underline tracking-wider">OUTDOORS AND WELLNESS</a>
                         <a href="#" class="text-2.8 font-700 hover:underline">MDQ's BEST HIKING TRAILS</a>
                         <a href="#" class="text-1 font-300 tracking-wider">by <span class="font-700 hover:underline">Discover Marinduque</span></a>
@@ -151,19 +151,19 @@
     </main>
     <footer class="flex flex-col text-center">
         <div class="bg-primary-600-0 text-neutral-100 py-8">
-            <h2 class="font-700 text-2.8 mb-8 leading-none">DISCOVER MDQ NEWSLETTER</h2>
+            <h2 class="font-700 text-1.8 lg:text-2.8 mb-8 leading-none">DISCOVER MDQ NEWSLETTER</h2>
             <form action="#" class="flex justify-center gap-2 mb-8">
                 <input type="email" placeholder="Enter your email" class="w-96 px-4 py-2 rounded-lg text-neutral-900 outline-none">
                 <button class="bg-secondary-500-0 hover:bg-secondary-900-0 duration-300 px-2 rounded-lg text-neutral-100">Get Updates</button>
             </form>
-            <div class="flex justify-center gap-2">
-                <input type="checkbox" value="accept" >
-                <p>I consent to receive the Discover LA newsletter. You can learn more by reading our privacy policy, and you can opt out at any time.</p>
+            <div class="flex justify-center px-8 gap-2">
+                <input type="checkbox" value="accept" class="flex self-start my-1 lg:m-0 lg:self-center">
+                <p>I consent to receive the Discover MDQ newsletter. You can learn more by reading our privacy policy, and you can opt out at any time.</p>
             </div>
         </div>
         <div class="pt-8 pb-4 bg-neutral-600 text-neutral-300">
             <div>
-                <ul class="flex justify-center gap-8 mb-8 underline font-500">
+                <ul class="flex justify-center px-4 lg:px-0 gap-4 lg:gap-8 mb-8 underline font-500">
                     <li>Things to Do</li>
                     <li>Eat & Drink</li>
                     <li>Find Events</li>
